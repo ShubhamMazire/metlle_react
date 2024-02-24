@@ -1,0 +1,26 @@
+.main-div-timing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* height: 70vh; */
+  min-height: 100vh;
+}
+
+.text-color {
+  /* text-align: center; */
+  color: #171a1fff;
+  /* font-size: 3.125rem; */
+  /* font-weight: bold; */
+  /* margin-bottom: 1.25rem; */
+}
+
+.do-text {
+  color: #9095a1 !important;
+  text-decoration: none;
+}
+
+.doo-text {
+  color: #7b48cc !important;
+  text-decoration: none;
+}

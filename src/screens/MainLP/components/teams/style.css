@@ -1,0 +1,45 @@
+.main-bg-team {
+  background-image: url("../../images/section-shape-3.png");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.center-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.team-text {
+  color: #4a4c55;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.save-text {
+  color: #797d86;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.width {
+  width: 62.5rem;
+}
+
+@media (max-width: 26.563rem) {
+  .width {
+    width: 100%;
+  }
+}

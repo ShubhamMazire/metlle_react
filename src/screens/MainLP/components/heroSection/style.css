@@ -1,0 +1,151 @@
+.main-bg-hero {
+  /* ONE JPG IMAGE AND ANOTEHR TRANSPERENT GIF IMAGE AS BACKGROUND */
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+  /* padding-top: 1.875rem; */
+}
+
+.main-text-div {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3.125rem;
+  margin-top: 4rem;
+}
+
+.main-text {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #ffffffff;
+}
+
+.mar {
+  padding-left: 2.5rem;
+}
+
+.manu-text {
+  font-size: 1.5rem;
+  color: #bdc1caff;
+  font-weight: 700;
+}
+
+.small-manu-text {
+  font-size: 1rem;
+  color: #bdc1caff;
+  font-weight: 600;
+}
+
+.upload-text {
+  font-size: 0.625rem;
+  color: #a8adb7ff;
+  font-weight: 700;
+  text-align: center;
+}
+
+.upload-text12 {
+  font-size: 0.625rem;
+  color: #a8adb7ff;
+  font-weight: 700;
+  text-align: center;
+}
+
+.upload-text13 {
+  font-size: 0.625rem;
+  color: #a8adb7ff;
+  font-weight: 700;
+  text-align: center;
+  padding-left: 6.25rem;
+}
+
+.second-main-div {
+  margin-top: 2.5rem;
+  border: 1px #a8adb7ff solid;
+  background: #7b48cc05;
+  border-color: #bdc1caff;
+  border-style: dashed;
+  border-radius: 0.3125rem;
+  width: 26.25rem;
+  padding:0.625rem 1rem;
+}
+
+.div-bx {
+  padding-left: 3.125rem;
+}
+
+.center-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-start {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  line-height: 22px;
+  color: #ffffffff;
+  background: #535ce8ff;
+  opacity: 1;
+  border: none;
+  border-radius: 0.625rem;
+  margin-bottom: 0.3125rem;
+}
+
+.btn-start:hover {
+  color: #ffffffff;
+  background: #535ce8ff;
+}
+
+/* Pressed */
+.button:hover:active {
+  color: #ffffffff;
+  background: #535ce8ff;
+}
+
+/* Disabled */
+.button:disabled {
+  opacity: 0.4;
+}
+
+@media (max-width: 375px) {
+  .main-bg-hero {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+
+  .main-text-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 0rem;
+    margin-top: 5rem;
+    text-align: center;
+  }
+
+  .second-main-div {
+    margin-top: 0.5rem;
+    border: 1px #a8adb7ff solid;
+    background: #7b48cc05;
+    border-color: #bdc1caff;
+    border-style: dashed;
+    border-radius: 0.3125rem;
+    /* width: 25rem; */
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+  }
+
+  .div-bx {
+    padding-left: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+}

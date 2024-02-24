@@ -1,0 +1,109 @@
+.main-bg {
+  background-image: url("../images/Image\ 40.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  padding: 60px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background behaviar fixed */
+  background-attachment: fixed;
+}
+
+.getsatrted2 {
+  background-color: #535CE8FF;
+  color: white;
+  font-size: 1.25rem; /* 2rem * 0.625 = 1.25rem */
+  padding: 6.25px 18.75px; /* 10px * 0.625 = 6.25px, 30px * 0.625 = 18.75px */
+  border-radius: 0.3125rem; /* 0.5rem * 0.625 = 0.3125rem */
+  border: none;
+  margin-top: 2.5rem; /* 4rem * 0.625 = 2.5rem */
+}
+
+.text-center {
+  font-size: 2.5rem; /* 4rem * 0.625 = 2.5rem */
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.center-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.get-text {
+  color: white;
+  font-weight: bold;
+  font-size: 1.3125rem; /* 2.1rem * 0.625 = 1.3125rem */
+  text-align: center;
+  margin: 0.7rem 0;
+}
+
+.get-text-small {
+  font-size: 0.9375rem; /* 1.5rem * 0.625 = 0.9375rem */
+  text-align: center;
+  width: 50%;
+  color: #dee1e6ff;
+  font-weight: 500;
+}
+
+.mar-top {
+  margin-top: 1.875rem; /* 3rem * 0.625 = 1.875rem */
+}
+
+.tex-cahse {
+  font-size: 2.5rem; /* 4rem * 0.625 = 2.5rem */
+  color: white;
+  font-weight: bold;
+  align-items: center;
+  margin-top: 1.875rem; /* 3rem * 0.625 = 1.875rem */
+  text-align: center;
+}
+
+.suport-text {
+  font-size: 1.25rem; /* 2rem * 0.625 = 1.25rem */
+  color: #dee1e6ff;
+  margin-top: 2.5rem; /* 4rem * 0.625 = 2.5rem */
+  font-weight: 400;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .text-center {
+    font-size: 1.25rem; /* 2rem * 0.625 = 1.25rem */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .get-text-small {
+    font-size: 0.4375rem; /* 0.7rem * 0.625 = 0.4375rem */
+    text-align: center;
+    width: 50%;
+    color: #dee1e6ff;
+    font-weight: 500;
+  }
+  .mar-top {
+    margin-top: 1.875rem; /* 3rem * 0.625 = 1.875rem */
+  }
+  .tex-cahse {
+    font-size: 1.5625rem; /* 2.5rem * 0.625 = 1.5625rem */
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 1.875rem; /* 3rem * 0.625 = 1.875rem */
+    text-align: center;
+  }
+}

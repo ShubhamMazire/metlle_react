@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Metlle | Kiro</title>
+  </head>
+  <body>
+<div>
+
+  <form id="form" action="upload.php" method="post" enctype="multipart/form-data">
+            <div>
+              <label>STL File</label>
+            <input required  type="file" name="fileToUpload" id="file" />
+        </div>
+
+
+        <!-- <div>
+          <label>Mode</label>
+        <input required  type="text" onchange="mode=this.value"/>
+        </div> -->
+
+
+        <div>
+          <label>Expected value</label>
+          <input required  type="text" onchange="expected=this.value"/>
+        </div>
+
+        <!-- <div>
+          <label>sliceFillSparse</label>
+          <input required  type="text" onchange="sliceFillSparse=this.value"/>
+        </div>
+
+        <div>
+          <label>sliceTopLayers</label>
+          <input required  type="text" onchange="sliceTopLayers=this.value"/>
+        </div>
+
+        <div>
+          <label>sliceBottomLayers</label>
+          <input required  type="text" onchange="sliceBottomLayers=this.value"/>
+        </div> -->
+
+        <button type="submit" >Submit</button>
+</form>
+
+
+<h2 id="error"></h2>
+  <h1 id="gt"></h1>
+
+  <script src="https://grid.space/code/engine.js"></script>
+  <script src="/script.js.js"></script>
+  </body>
+</html>

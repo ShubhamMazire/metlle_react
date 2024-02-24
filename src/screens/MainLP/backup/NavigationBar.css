@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column;
+    }
+  
+    .navbar-collapse {
+      justify-content: flex-start;
+    }
+  
+    .navbar-nav .nav-link {
+      padding: 0.5rem 1rem;
+    }
+  
+    .navbar-brand {
+      margin-right: 0;
+    }
+  
+    .navbar-toggler {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+  }

@@ -1,0 +1,51 @@
+
+
+.getStartedButton {
+  background-color: #535ce8ff;
+  color: white;
+  font-size: 1.25rem; /* Converted from 2rem */
+  padding: 0.625rem 1.875rem; /* Converted from 10px 30px */
+  border-radius: 0.3125rem; /* Converted from .5rem */
+  border: none;
+}
+.main-bg2 {
+  background-image: url("../images/bgimage22.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: stretch;
+  width: 100%;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+
+.div-top {
+  width: 60%; /* 40% * 0.625 = 25% */
+  text-align: left;
+  color: whitesmoke;
+  margin-left: 3.125%; /* 5% * 0.625 = 3.125% */
+  padding: 18.75px 12.5px; /* 30px * 0.625 = 18.75px, 20px * 0.625 = 12.5px */
+  padding-left: 3.125rem; /* 5rem * 0.625 = 3.125rem */
+  margin-top: 9.375rem; /* 15rem * 0.625 = 9.375rem */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.subtextInc
+{
+    margin-bottom: 30px;
+    font-weight: normal;
+    font-size: 1.25rem;
+    color: #bdc1ca ;
+}
+
+
+
+@media (max-width: 425px) {
+  .div-top {
+    width: 62.5%; /* 100% * 0.625 = 62.5% */
+    text-align: left;
+    color: whitesmoke;
+    margin-left: 0%;
+  }
+}

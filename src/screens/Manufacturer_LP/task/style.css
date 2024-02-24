@@ -1,0 +1,25 @@
+.text-big {
+  font-size: 3.2rem; /* Multiply 5rem by 0.64 */
+  font-weight: bold;
+  color: #171a1f;
+  text-align: center;
+}
+
+.run-main-div {
+  padding: 57.6px 0px; /* Multiply 90px by 0.64 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height:100vh */
+}
+
+@media (max-width: 425px) {
+  .text-big {
+
+    font-size: 1.28rem; /* Multiply 2rem by 0.64 */
+    font-weight: bold;
+    color: #171a1f;
+    text-align: center;
+  
+  }
+}

@@ -1,0 +1,17 @@
+.label {
+    font-size: 1.14272rem;
+    color: #000000;
+    margin-bottom: 3.2px;
+  }
+  
+  .input-group *,
+  .form-group * {
+    font-size: 1.14272rem;
+    color: #000000;
+  }
+  
+  .text-primary {
+    font-size: 1rem;
+    color:#8288ee;
+  }
+  

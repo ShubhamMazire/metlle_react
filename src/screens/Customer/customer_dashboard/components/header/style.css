@@ -1,0 +1,13 @@
+.nav-bar-div {
+  background-color: transparent !important;
+  padding: 2rem;
+}
+.text-nav {
+  font-size: 1.4rem !important;
+  color: #171a1fff !important;
+  font-weight: 500 !important;
+  text-align: center !important;
+}
+.navbar-nav .nav-link {
+  color: #171a1fff !important;
+}

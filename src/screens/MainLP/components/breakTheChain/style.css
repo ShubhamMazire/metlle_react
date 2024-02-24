@@ -1,0 +1,30 @@
+.main-break-div {
+  /* background-image: url("../../images/Image\ 131.png"); */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.break-text {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+}
+
+@media (max-width: 425px) {
+  .break-text {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+  }
+}

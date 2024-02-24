@@ -1,0 +1,115 @@
+.flex-icon-box {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 0.5rem;
+}
+.yy-text {
+  font-size: 0.704rem;
+  color: #171a1fff;
+  font-weight: 600;
+  margin-left: 0.64rem;
+  /* margin-top: 0.32rem; */
+}
+.btn-order {
+  font-size: 0.704rem;
+  color: #ffffffff;
+  background: #535ce8ff;
+  opacity: 1;
+  border: none;
+  border-radius: 5.76px;
+  box-shadow: 0px 1.28px 3.2px rgba(0, 0, 0, 0.5);
+  width: 9.6rem;
+  padding: 0.512rem;
+  font-weight: 600;
+  margin-top: 0.32rem;
+  margin-bottom: 0.32rem;
+}
+.btn-order:hover {
+  color: #ffffffff;
+  background: #3a45e4ff;
+}
+.btn-order:hover:active {
+  color: #ffffffff;
+  background: #202de1ff;
+}
+.btn-order:disabled {
+  opacity: 0.4;
+}
+.btn2-order {
+  font-size: 0.704rem;
+  color: #3a45e4ff;
+  background: transparent;
+  opacity: 1;
+  border: none;
+  border-radius: 5.76px;
+  box-shadow: 0px 1.28px 3.2px rgba(0, 0, 0, 0.5);
+  /* width: 9.6rem; */
+  padding: 0.512rem;
+  font-weight: 600;
+  margin-top: 0.32rem;
+  margin-bottom: 0.32rem;
+  border: solid 0.64px #3a45e4ff;
+}
+
+.btn2-order:disabled {
+  opacity: 0.4;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+.colum-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0;
+  margin-left: 1.5rem;
+}
+.big-box {
+  background-color: white;
+  padding: 0.64rem 1.5rem;
+  box-shadow: 0px 3.84px 25.6px rgba(0, 0, 0, 0.05);
+  /* width: 44.8rem; */
+  border-radius: 7.68px;
+  border-width: 0.64px;
+  border: 0.64px solid rgba(0, 0, 0, 0.05);
+  margin-top: 0.32rem;
+  margin-bottom: 0.32rem;
+}
+.kn-text {
+  font-size: 1.024rem;
+  color: #16bc9cff;
+  font-weight: 700;
+}
+.del-text {
+  float: right;
+  font-size: 0.704rem;
+  color: #171a1fff;
+  font-weight: 700;
+}
+.part-text {
+  font-size: 0.64rem;
+  font-weight: 700;
+  margin-left: 0.32rem;
+  margin-right: 0.32rem;
+}
+.flex1-icon-box {
+  display: flex;
+  align-items: center;
+  margin-left: 0.64rem;
+}
+@media (max-width: 425px) {
+  .big-box {
+    background-color: white;
+    padding: 0.64rem;
+    box-shadow: 0px 3.84px 25.6px rgba(0, 0, 0, 0.05);
+    width: 25.6rem;
+    border-radius: 7.68px;
+    border-width: 0.64px;
+    border: 0.64px solid rgba(0, 0, 0, 0.05);
+    margin-top: 0.32rem;
+    margin-bottom: 0.32rem;
+  }
+}

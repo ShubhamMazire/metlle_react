@@ -1,0 +1,75 @@
+.main-bg-build {
+  width: 100%;
+  background: linear-gradient(90deg,
+    rgba(107, 106, 206, 1) 0%,
+    rgba(31, 177, 162, 1) 0%,
+    rgba(29, 178, 161, 1) 48%,
+    rgba(107, 106, 206, 1) 94%);
+  box-shadow: 0px 0.3125rem 0.625rem rgba(68, 68, 68, 0.6),
+    0px 0px 0.3125rem rgba(68, 68, 68, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.center-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.build-text {
+  font-size: 4.375rem;
+  color: #ffffffff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.we-text {
+  font-size: 1.125rem;
+  color: #dee1e6ff;
+  font-weight: 700;
+  margin-top: 1.25rem;
+  text-align: center;
+}
+
+.btn-build-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  color: #ffffffff;
+  background: #535ce8ff;
+  opacity: 1;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.625rem 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.btn-build-button:hover {
+  color: #ffffffff;
+  background: #3a45e4ff;
+}
+
+.btn-build-button:hover:active {
+  color: #ffffffff;
+  background: #202de1ff;
+}
+
+.btn-build-button:disabled {
+  opacity: 0.4;
+}
+
+
+.spring-div {
+  transition: transform 0.3s ease-in-out;
+}
+
+.spring-div .spring-effect {
+  transform: scale(1.2);
+}

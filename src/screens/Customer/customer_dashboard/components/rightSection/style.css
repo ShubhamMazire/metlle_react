@@ -1,0 +1,75 @@
+.box-saved {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0.64rem;
+  box-shadow: 0.64px 3.84px 25.6px rgba(0, 0, 0, 0.05);
+  /* width: 19.2rem; */
+  border-radius: 0.64rem;
+  background-color: white;
+  border: solid 0.64px rgba(0, 0, 0, 0.05);
+  margin-top: 0.32rem;
+  margin-bottom: 0.32rem;
+}
+
+.you-text {
+  font-size: 1.152rem;
+  color: #171a1fff;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0.448rem;
+  margin-top: 0.448rem;
+}
+
+.min-text {
+  font-size: 2.048rem;
+  color: #171a1fff;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.32rem;
+  margin-top: 0.32rem;
+}
+
+.quot-text {
+  font-size: 0.896rem;
+  color: #171a1fff;
+  font-weight: 600;
+}
+
+.flex-div-qout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 57.6%; */
+  margin-top: 1.28rem;
+}
+
+.mar-tp {
+  margin-top: -3.2rem;
+}
+
+.pro-text {
+  font-size: 0.896rem;
+  color: #9095a1ff;
+  font-weight: 600;
+}
+
+.hun-text {
+  font-size: 1.024rem;
+  color: #171a1fff;
+  font-weight: bold;
+}
+
+.qt-text {
+  font-size: 0.896rem;
+  color: #9095a1ff;
+}
+
+.percent-text {
+  font-size: 1.536rem;
+  color: #171a1fff;
+  font-weight: bold;
+  margin-top: -0.32rem;
+}

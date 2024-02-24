@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+
+      />
+
+
+
+          <!--      sweet alert   -->
+
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@5/dark.css"
+    /> -->
+
+    <link rel="stylesheet" href="@sweetalert2/theme-minimal/minimal.css">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+
+    <!--      sweet alert   -->
+
+    <link rel="stylesheet" href="https://palavitrust.org/css/animate.css" />
+    <link rel="stylesheet" href="http://daneden.github.io/animate.css" />
+
+
+    <script src="https://js.pusher.com/7.2/pusher.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+      integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="stl_viewer.min.js"></script> 
+    <title>Metlle</title>
+
+    <link
+      rel="stylesheet"
+      href="/font/stylesheet.css"
+      type="text/css"
+      charset="utf-8"
+    />
+
+    <style>
+      body > iframe[style*="2147483647"] {
+        display: none;
+      }
+
+      /* font --------------------------------------------- */
+
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+      * {
+        font-family: "poppinsregular", "Poppins", "poppinsblack",
+          "poppinsblack_italic", "poppinsbold", "poppinsbold_italic",
+          "poppinsextrabold", "poppinsextrabold_italic", "poppinsextralight",
+          "poppinslight", "poppinsmedium", "poppinssemibold", "poppinsitalic",
+          "poppinsregular";
+      }
+
+      .regular {
+        font-family: "poppinsregular";
+      }
+
+      .semi_bold {
+        font-family: "poppinssemibold";
+      }
+
+      .bold {
+        font-family: "poppinsbold";
+      }
+
+      .extra_bold {
+        font-family: "poppinsextrabold";
+      }
+
+      .medium {
+        font-family: "poppinsmedium";
+      }
+
+      /* font config end --------------------------------------------------------- */
+
+      .center {
+        text-align: center;
+      }
+
+      body {
+        overflow-x: hidden;
+      }
+
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      html {
+        font-size: 100%;
+      }
+
+      @media (max-width: 998px) {
+        html {
+          font-size: 88%;
+        }
+      }
+
+      @media (max-width: 768px) {
+        html {
+          font-size: 80%;
+        }
+      }
+
+      .shadow,.shaddow {
+        /* box-shadow: 0.64px 3.84px 25.6px rgba(0, 0, 0, 0.05); */
+
+        /* box-shadow: "6px 5px 10px rgba(0, 0, 0, 0.05)"; */
+
+        /* box-shadow: 2px 2px 5px #171a1f, 2px 0px 2px #171a1f; */
+
+        box-shadow: 4px 4px 8px #bebebe, -4px -4px 8px #ffffff;
+
+        /* border-width: 1px; */
+        /* border-color: #bcc1ca00;  */
+        /* border-style: solid; */
+
+        /* width: 19.2rem; */
+        border-radius: 10px;
+        /* background-color: white; */
+      }
+
+      *,
+      button,
+      body {
+        text-transform: lowercase;
+      }
+
+      .no_trans, .no-trans {
+        text-transform: none;
+      }
+
+      .cursor {
+        cursor: pointer;
+      }
+
+      .Typewriter {
+        display: inline-block;
+        margin-left: 15px;
+        font-weight: bold;
+      }
+
+      .Typewriter__wrapper * {
+        font-weight: bold;
+        font-weight: bolder;
+      }
+
+      .no-decoration {
+        text-decoration: none;
+      }
+
+
+       /* font config end --------------------------------------------------------- */
+
+
+       .h1 {
+            font-size: 2.5rem;
+        }
+
+        .h2 {
+            font-size: 2rem;
+        }
+
+        .h3 {
+            font-size: 1.75rem;
+        }
+
+        .h4 {
+            font-size: 1.5rem;
+        }
+
+        .h5 {
+            font-size: 1.25rem;
+        }
+
+        .h6 {
+            font-size: 1rem;
+        }
+
+        .h7 {
+            font-size: 0.75rem;
+        }
+
+        .h8 {
+            font-size: 0.5rem;
+        }
+
+        .h9 {
+            font-size: 0.25rem;
+        }
+
+        .h10 {
+            font-size: 0.1rem;
+        }
+
+        .h11 {
+
+            font-size: 0.05rem;
+        }
+
+        .body1 {
+            font-size: 1rem;
+        }
+
+        .body2 {
+            font-size: 0.75rem;
+        }
+
+
+
+      /* login styles */
+      .label {
+    font-size: 1.14272rem;
+    color: #000000;
+    margin-bottom: 3.2px;
+  }
+  
+  .input-group *,
+  .form-group * {
+    font-size: 1.14272rem;
+    color: #000000;
+  }
+  
+  .text-primary {
+    font-size: 1rem;
+    color:#8288ee;
+  }
+  
+
+  /* emd of loginstyle.css */
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+
+
+  <script>
+    wow = new WOW({
+      boxClass: "wow", // default
+      animateClass: "animated", // default
+      offset: 0, // default
+      mobile: true, // default
+      live: true, // default
+    });
+    wow.init();
+  </script>
+  <script src="https://grid.space/code/engine.js"></script>
+
+  <script>
+    window.display_gcode = (gcode) => {
+      // console.log(gcode);
+      gcode_ = gcode.split("\n");
+      //extract the gcode from the gcode text
+      filament_used = gcode_[gcode_.length - 2];
+      filament_used = filament_used.slice(filament_used.search("[0-9]"));
+      filament_used = filament_used.split(" "); //"2044.21", "mm",
+      filament_used = {
+        length: filament_used[0],
+        unit: filament_used[1],
+      };
+
+      // console.log(gcode)
+
+      return filament_used.length;
+
+      // document.getElementById("gt").innerText = "OP:" + filament_used.length; // JSON.stringify(filament_used);
+      // document.getElementById("error").innerText =
+      //   "Diff:" + (expected - filament_used.length);
+      // display_message();
+      // $('dfoot').style.display = 'block';
+      // $('gfoot').style.display = '';
+    };
+
+    window.display_message = (msg) => {
+      console.log("msg" + msg);
+      // document.getElementById("msg").innerText +="<br/>"+ msg
+      //   ? Object.keys(msg).join(" - ")
+      //   : "";
+    };
+
+    window.calculateCNC = async (stlFilePath) => {
+      //   // kiri Kiri:Moto Javascript Engine
+      try {
+        const engine = kiri.newEngine();
+        engine.setListener(window.display_message);
+
+        const loadedEngine = await engine.load(stlFilePath);
+
+        const processedEngine = await loadedEngine.setProcess({
+          sliceShells: 1,
+          sliceFillSparse: 0.25,
+          sliceTopLayers: 2,
+          sliceBottomLayers: 2,
+        });
+
+        const device = await processedEngine.setDevice({
+          gcodePre: ["M82", "M104 S220"],
+          gcodePost: ["M107"],
+        });
+        const slicedEngine = await device.slice();
+        const preparedEngine = await slicedEngine.prepare();
+        const exportedEngine = await preparedEngine.export();
+
+        return window.display_gcode(exportedEngine);
+      } catch (error) {
+        <!-- alert("An error occurred:", error); -->
+      }
+    };
+  </script>
+</html>

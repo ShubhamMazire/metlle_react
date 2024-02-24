@@ -1,0 +1,52 @@
+.middle1-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #171a1f;
+  }
+  
+  .middle1-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25.6px 0;
+  }
+  
+  .middle1-image {
+    height: 100%;
+    width: auto;
+  }
+  
+  .middle1-text {
+    color: whitesmoke;
+    text-align: center;
+  }
+  
+  .middle1-heading {
+    font-size: 2.8rem;
+  }
+  
+  .middle1-paragraph {
+    font-size: 1.28rem;
+    padding: 0 145px;
+    color: white;
+  }
+  
+  .middle1-subheading {
+    font-weight: bold;
+    font-size: 3.2rem;
+  }
+  
+  .middle1-button {
+    background-color: #535CE8FF;
+    color: white;
+    font-size: 1.28rem;
+    padding: 6.4px 19.2px;
+    border-radius: 0.32rem;
+    border: none;
+    margin-top: 1.28rem;
+  }
+  

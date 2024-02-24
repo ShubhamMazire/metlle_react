@@ -1,0 +1,19 @@
+.main-bg-busi {
+  /* background-image:url("/assets/last globe.png"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding-top: 3.125rem;
+}
+
+.busi-text {
+  color: #bdc1ca;
+  font-size: 3.75rem;
+  font-weight: bold;
+  text-align: center;
+}

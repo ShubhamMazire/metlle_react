@@ -1,0 +1,58 @@
+.run-main-bg {
+  background-image: url("../images/Image\ 140.png");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  padding: 10px 0px; /* Multiply 60px by 0.64 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-attachment: fixed;
+}
+
+.center-colll {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-direction: column; */
+
+
+}
+
+
+.contncr{
+    flex-direction: "row";
+    display: flex;
+    justify-content: "center";
+    align-items: "flex-start";
+
+}
+
+.text-run {
+  font-size: 3.2rem; /* Multiply 5rem by 0.64 */
+  color: #323743ff;
+  font-weight: bold;
+}
+
+.text-run1 {
+  font-size: 1.508rem; /* Multiply 2.2rem by 0.64 */
+  color: #323743ff;
+  font-weight: 900;
+}
+
+@media (max-width: 425px) {
+  .text-run {
+    font-size: 1.6rem; /* Multiply 2.5rem by 0.64 */
+    color: #323743ff;
+    font-weight: bold;
+    text-align: center;
+  }
+  .text-run1 {
+    font-size: 0.768rem; /* Multiply 1.2rem by 0.64 */
+    color: #323743ff;
+    text-align: center;
+  }
+}
